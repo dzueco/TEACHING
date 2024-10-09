@@ -11,6 +11,7 @@ Course: 2024-2025
 
 ## create conda environment,  activate and install:
 
+If you use windows, you may have problems by using the powershell.  Please, check for solutions.  You can always use the command prompt (cmd) 
 * create:
 ```
 conda create -n pennylane python=3.10

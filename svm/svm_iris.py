@@ -14,7 +14,7 @@ from sklearn.svm import SVC
 
 pd.set_option("future.no_silent_downcasting", True)
 
-""" esto es para añadir el actual directorio y poder impotar módulos """
+""" add folder and load modules """
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from importlib import reload
 
@@ -34,7 +34,7 @@ column_names = ["sepal_length", "sepal_width", "petal_length", "petal_width", "c
 
 class_names = ["Iris-setosa", "Iris-versicolor", "Iris-virginica"]
 
-data = pd.read_csv("data/iris.data", names=column_names)
+data = pd.read_csv("../data/iris.data", names=column_names)
 
 # check data size and the number of features
 print(data.shape)

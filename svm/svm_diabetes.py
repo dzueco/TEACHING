@@ -42,7 +42,7 @@ column_names = [
     "Age",
     "Outcome",
 ]
-data = pd.read_csv("data/diabetes.csv", names=column_names, header=0)
+data = pd.read_csv("../data/diabetes.csv", names=column_names, header=0)
 
 # check data size and the number of features
 print(data.shape)

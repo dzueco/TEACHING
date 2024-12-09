@@ -1,8 +1,8 @@
 ## ENVIRONMENTS:
 
-conda create and activate
 
-conda create --name svm python=3.12
+
+conda create -n svm python=3.12
 
 conda activate svm
 

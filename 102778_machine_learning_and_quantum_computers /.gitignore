@@ -1,7 +1,7 @@
 # system files
 .DS_Store
 Thumbs.db
-../.DS_Store
+**/.DS_Store
 
 # python stuff
 __pycache__/

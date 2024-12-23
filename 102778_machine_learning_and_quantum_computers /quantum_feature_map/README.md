@@ -11,7 +11,6 @@ Course: 2024-2025
 
 ## create conda environment,  activate and install:
 
-If you use windows, you may have problems by using the powershell.  Please, check for solutions.  You can always use the command prompt (cmd) 
 * create:
 ```
 conda create -n pennylane python=3.10
@@ -29,6 +28,15 @@ pip install ipympl
 
 pip install tqdm
 ```
+* install data stuff
+
+````
+pip install pandas
+pip install seaborn
+
+````
+
+
 * install scikit-learn 
 ```
 pip install scikit-learn
@@ -63,4 +71,5 @@ In any case, you can google Pennylane and dive into its documentation. Have fun!
 
     - simple_pl_circuit.py: A simple circuit constructor (class exercise).
     - qSVM_v0.py: The quantum algorithm for classification. You will also find its classical version.
+
 

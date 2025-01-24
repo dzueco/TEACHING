@@ -83,7 +83,7 @@ num_qubits = 4
 x = [0.1, 0.4, 0.6, 0.2]
 mdqsvm.cir_ej(4, lambda: mdqsvm.ansatz(x, 4))
 
-adjoint_ansatz = qml.adjoint(mdqsvm.ansatz(x, 4))
+adjoint_ansatz = qml.adjoint(mdqsvm.layer)(x, 4)
 mdqsvm.cir_ej(4, lambda: adjoint_ansatz)
 # %%
 selected_kernel = "quantum"

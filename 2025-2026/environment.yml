@@ -1,0 +1,16 @@
+name: svm
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - ipykernel
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - graphviz
+  - python-graphviz
+  - pip
+  - pip:
+      - jupytext
